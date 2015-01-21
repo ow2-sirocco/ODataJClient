@@ -66,9 +66,11 @@
             <configuration>
               <includes>
                 <include>javax.xml.stream:stax-api</include>
+<!--
                 <include>org.codehaus.woodstox:stax2-api</include>
                 <include>com.fasterxml.jackson.dataformat:jackson-dataformat-xml</include>
                 <include>com.fasterxml:aalto-xml</include>
+-->
               </includes>
               <rules>
                 <rule>

@@ -41,6 +41,7 @@
   </properties>
 
   <dependencies>
+<!--
     <dependency>
       <groupId>com.msopentech.odatajclient</groupId>
       <artifactId>odatajclient-engine-xml</artifactId>
@@ -55,6 +56,18 @@
           <artifactId>aalto-xml</artifactId>
         </exclusion>
       </exclusions>
+    </dependency>
+-->
+    <dependency>
+      <groupId>com.fasterxml.jackson.dataformat</groupId>
+      <artifactId>jackson-dataformat-xml</artifactId>
+      <version>2.2.3</version>
+    </dependency>
+    
+    <dependency>
+      <groupId>com.fasterxml</groupId>
+      <artifactId>aalto-xml</artifactId>
+      <version>0.9.9</version>
     </dependency>
     
     <dependency>
