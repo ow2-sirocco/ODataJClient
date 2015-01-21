@@ -114,7 +114,7 @@ public class XMLODataError extends AbstractPayloadObject implements ODataError {
     @JsonIgnore
     @Override
     public String getInnerErrorStacktrace() {
-        return this.innererror == null ? null : this.innererror.getStacktrace().getValue();
+        return this.innererror == null ? null : (this.innererror.getStacktrace() == null ? null : this.innererror.getStacktrace().getValue());
     }
 
     static class TextChildContainer extends AbstractPayloadObject {
