@@ -39,6 +39,10 @@ public enum ODataPubFormat {
      */
     JSON_FULL_METADATA(ContentType.APPLICATION_JSON.getMimeType() + ";odata=fullmetadata"),
     /**
+     * JSON format with verbose.
+     */
+    JSON_VERBOSE(ContentType.APPLICATION_JSON.getMimeType() + ";odata=verbose"),
+    /**
      * Atom format.
      */
     ATOM(ContentType.APPLICATION_ATOM_XML.getMimeType());
